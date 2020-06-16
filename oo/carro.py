@@ -100,7 +100,7 @@ class Carro:
         self.motor = motor
         self.direcao = direcao
 
-    def caclular_velocidade(self):
+    def calcular_velocidade(self):
         return self.motor.velocidade
 
     def acelerar(self):
@@ -109,7 +109,7 @@ class Carro:
     def frear(self):
         self.motor.frear()
 
-    def calculcar_direcao(self):
+    def calcular_direcao(self):
         return self.direcao.valor
 
     def girar_a_direita(self):
